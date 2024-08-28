@@ -1,11 +1,11 @@
 # Airline Passenger Satisfaction - classification
 
 # Dataset Information
-Context
+<li>Context
 This dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger? Can you predict passenger satisfaction?
 
 
-Content
+<li>Content
 Gender: Gender of the passengers (Female, Male)
 
 Customer Type: The customer type (Loyal customer, disloyal customer)
@@ -57,9 +57,9 @@ Note that this data set was modified from this dataset by John D here. It has be
 **Download link:** https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
 # Libraries
-<li>pandas
-<li>numpy
-<li>scikit-learn
+<li>Pandas
+<li>Pumpy
+<li>Pcikit-learn
 
 # Algorithms
 <li>Decision Tree
