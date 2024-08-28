@@ -59,7 +59,7 @@ Note that this data set was modified from this dataset by John D here. It has be
 # Libraries
 <li>Pandas
 <li>Pumpy
-<li>Pcikit-learn
+<li>Sklearn
 
 # Algorithms
 <li>Decision Tree
