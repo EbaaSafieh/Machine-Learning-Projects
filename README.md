@@ -1,1 +1,2 @@
 # Machine-Learning-Projects
+This repository features my machine learning projects, including Jupyter Notebook files. Navigate to the projects folder and refer to the README for detailed instructions on each project.
