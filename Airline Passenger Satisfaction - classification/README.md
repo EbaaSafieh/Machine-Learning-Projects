@@ -1,13 +1,60 @@
-# House Price Prediction - Regression
+# Airline Passenger Satisfaction - classification
 
 # Dataset Information
-Online property companies offer valuations of houses using machine learning techniques. The aim of this report is to predict the house sales in King County, Washington State, USA using Multiple Linear Regression (MLR). The dataset consisted of historic data of houses sold between May 2014 to May 2015.
-We will predict the sales of houses in King County with an accuracy of at least 75-80% and understand which factors are responsible for higher property value - $650K and above.”
+Context
+This dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger? Can you predict passenger satisfaction?
 
-The dataset consists of house prices from King County an area in the US State of Washington, this data also covers Seattle. The dataset was obtained from Kaggle. This data was published/released under CC0: Public Domain. Unfortunately, the user has not indicated the source of the data. Please find the citation and database description in the Glossary and Bibliography.
-The dataset consisted of 21 variables and 21613 observations.
 
-**Download link:** https://www.kaggle.com/datasets/shivachandel/kc-house-data
+Content
+Gender: Gender of the passengers (Female, Male)
+
+Customer Type: The customer type (Loyal customer, disloyal customer)
+
+Age: The actual age of the passengers
+
+Type of Travel: Purpose of the flight of the passengers (Personal Travel, Business Travel)
+
+Class: Travel class in the plane of the passengers (Business, Eco, Eco Plus)
+
+Flight distance: The flight distance of this journey
+
+Inflight wifi service: Satisfaction level of the inflight wifi service (0:Not Applicable;1-5)
+
+Departure/Arrival time convenient: Satisfaction level of Departure/Arrival time convenient
+
+Ease of Online booking: Satisfaction level of online booking
+
+Gate location: Satisfaction level of Gate location
+
+Food and drink: Satisfaction level of Food and drink
+
+Online boarding: Satisfaction level of online boarding
+
+Seat comfort: Satisfaction level of Seat comfort
+
+Inflight entertainment: Satisfaction level of inflight entertainment
+
+On-board service: Satisfaction level of On-board service
+
+Leg room service: Satisfaction level of Leg room service
+
+Baggage handling: Satisfaction level of baggage handling
+
+Check-in service: Satisfaction level of Check-in service
+
+Inflight service: Satisfaction level of inflight service
+
+Cleanliness: Satisfaction level of Cleanliness
+
+Departure Delay in Minutes: Minutes delayed when departure
+
+Arrival Delay in Minutes: Minutes delayed when Arrival
+
+Satisfaction: Airline satisfaction level(Satisfaction, neutral or dissatisfaction)
+
+Note that this data set was modified from this dataset by John D here. It has been cleaned up for the purposes of classification.
+
+**Download link:** https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
 # Libraries
 <li>pandas
@@ -15,7 +62,11 @@ The dataset consisted of 21 variables and 21613 observations.
 <li>scikit-learn
 
 # Algorithms
-<li>Random Forest
-<li>Linear Regression
+<li>Decision Tree
+<li>SVM
+<li>Gradient Boosting
+<li>Gaussian Naive Bayes
+<li>K-Neighbors
+<li>Logistic Regression
 
-**Best Model F1 Score:** 89.00
+**Best Model F1 Score:** 95.00
