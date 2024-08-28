@@ -69,4 +69,4 @@ Note that this data set was modified from this dataset by John D here. It has be
 <li>K-Neighbors
 <li>Logistic Regression
 
-**Best Model F1 Score:** 95.00
+**Best Model Score:** 95.00
